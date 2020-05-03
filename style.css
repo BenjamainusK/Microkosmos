@@ -43,6 +43,7 @@ section {
 .column {
   float: left;
   width: 50%;
+  border-spacing: 15px;
 
 }
 
