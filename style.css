@@ -39,24 +39,11 @@ section {
   
 }
 
-/* Create two equal columns that floats next to each other */
-.column {
-  float: left;
-  width: 50%;
-  border-spacing: 15px;
-
-}
-
-.gap {
-  column-gap: 10px;
-
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+.column_list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  grid-gap: .5rem;
+  align-items: flex-start;
 }
 
 hr {
