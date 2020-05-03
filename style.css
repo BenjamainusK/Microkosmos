@@ -53,6 +53,13 @@ section {
 
 }
 
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 hr {
   border-top: 1px solid grey;
   margin-top: 3%;
