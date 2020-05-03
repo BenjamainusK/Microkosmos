@@ -39,6 +39,20 @@ section {
   
 }
 
+/* Create two equal columns that floats next to each other */
+.column_left {
+  float: left;
+  width: 50%;
+
+}
+
+/* Create two equal columns that floats next to each other */
+.column_right {
+  float: right;
+  width: 50%;
+
+}
+
 hr {
   border-top: 1px solid grey;
   margin-top: 3%;
